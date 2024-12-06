@@ -2,11 +2,9 @@
   "name": "goit-advancedjs-hw-05",
   "version": "1.0.0",
   "homepage": "https://bartosz-zygmunt.github.io/goit-advancedjs-hw-05/",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "web-dev-server --node-resolve --open --watch"
   },
@@ -16,6 +14,7 @@
   "description": "",
   "devDependencies": {
     "@web/dev-server": "^0.4.6",
-    "gh-pages": "^6.2.0"
+    "gh-pages": "^6.2.0",
+    "typescript": "^5.3.0"
   }
 }
