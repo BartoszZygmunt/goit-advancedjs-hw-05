@@ -3,7 +3,7 @@ const button = document.querySelector("button");
 const input = document.querySelector("input");
 if (button && input) {
     button.addEventListener("click", () => {
-        concatenation(input.value, "hello You!!!");
+        concatenation(input.value, "hello My friend!");
     });
 }
 //# sourceMappingURL=index.js.map
