@@ -1,6 +1,7 @@
 {
   "name": "goit-advancedjs-hw-05",
   "version": "1.0.0",
+  "homepage": "https://bartosz-zygmunt.github.io/goit-advancedjs-hw-05/",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
